@@ -8,7 +8,7 @@ import javax.persistence.OneToOne;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
-@Entity
+@Enti
 public class Customer {
 	
 	@Id
