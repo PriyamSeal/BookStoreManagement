@@ -4,6 +4,6 @@ import com.Capgemini.BookstoreManagement.Entity.Address;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface IAddressServiceRepository extends JpaRepository<Address,Integer> {
+public interface IAddressServiceRepository extends JpaRepository<Address,Long> {
 
 }
